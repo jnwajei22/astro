@@ -1,4 +1,4 @@
-# Ignore Python cache
+# Ignore Python cache files
 __pycache__/
 *.pyc
 *.pyo
@@ -7,7 +7,7 @@ __pycache__/
 # Ignore macOS system files
 .DS_Store
 
-# Ignore logs
+# Ignore log files
 logs/
 *.log
 
@@ -15,13 +15,13 @@ logs/
 venv/
 .env
 
-# Ignore AI model weights (server)
+# Ignore model weights
 server/ai_model/models/
 
-# Ignore editor settings
-.vscode/
-.idea/
-
-# Ignore compiled distributions
+# Ignore build files
 build/
 dist/
+
+# Ignore editor configurations
+.vscode/
+.idea/
