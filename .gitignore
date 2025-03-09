@@ -15,6 +15,9 @@ logs/
 venv/
 .env
 
+# Ignore environment variables
+clients/windows/.env
+
 # Ignore model weights
 server/ai_model/models/
 
